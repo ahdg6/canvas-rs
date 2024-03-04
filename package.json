@@ -1,6 +1,6 @@
 {
   "name": "@ahdg/canvas",
-  "version": "0.1.51",
+  "version": "0.1.51-koishi",
   "description": "Canvas for Node.js with skia backend",
   "main": "index.js",
   "license": "MIT",
@@ -55,7 +55,6 @@
     "format:source": "prettier . -w",
     "format:toml": "taplo format",
     "lint": "eslint . -c ./.eslintrc.yml",
-    "prepublishOnly": "pinst --disable && napi prepublish -t npm",
     "postpublish": "pinst --enable",
     "test:ci": "ava -c 1",
     "test": "ava",
